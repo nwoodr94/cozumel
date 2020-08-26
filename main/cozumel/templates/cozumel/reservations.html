@@ -1,0 +1,26 @@
+{% extends 'cozumel/base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+
+<div class="header-container">
+
+    <form action="/cozumel/reservations/" method="post">
+        {% csrf_token %}
+        {{form}}
+        <button type="submit">Submit</button>
+    </form>
+
+</div>
+<section class="text">
+    <h1 class="title">Reservations</h1>
+    <div id="app"></div>
+    
+</section>
+
+
+<script>console.log("Hello")</script>
+<script async defer src="{% static 'cozumel/js/index.js' %}"></script>
+{% endblock %}
