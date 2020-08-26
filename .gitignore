@@ -1,2 +1,11 @@
 *.env
 *.sqlite3
+*.cfg
+
+__pycache__
+migrations
+
+.vscode 
+
+/bin
+/lib
