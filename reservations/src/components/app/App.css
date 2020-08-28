@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+
+.main {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+.datepickers > * {
+    height: 100%;
+    padding: 1vh;
+    display: block;
+}
