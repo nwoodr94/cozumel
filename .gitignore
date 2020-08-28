@@ -9,3 +9,6 @@ migrations
 
 /bin
 /lib
+
+node_modules
+build
